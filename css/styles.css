@@ -1,0 +1,107 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    font-style: italic;
+}
+.header{
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.blue {
+    font-weight: 100;
+    color: white;
+    margin-top: -50px;
+    background-color: rgb(93, 156, 150);
+    text-align: center;
+    padding: 10px;
+    display: inline-block;    
+}
+.donut{
+    font-variant: small-caps;
+    color: white;
+}
+
+.pic_group{
+    display: flex;
+    justify-content: center;
+    gap: 6px; /* Add some space between the images */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .pic_group{
+    max-width: 50%;
+    margin-bottom: 6px;
+}
+.bullets{
+    color: white;
+}
+body {
+    background-image: url('https://wallpapers.com/images/high/cool-photos-background-1920-x-1200-6mdrogrwtemt2rhx.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  header {
+    background-color: #585f84;
+    color: #b0b0b0;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  main {
+    padding-top: 80px; /* Add some padding to the main content to avoid overlap with the fixed header */
+  }
+  .title{
+    margin-top: -35px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(192, 192, 192);
+    text-decoration: underline;
+  }
+  .vid{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bottom{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: #585f84;
+    text-decoration: none;
+    color: maroon;
+  }
